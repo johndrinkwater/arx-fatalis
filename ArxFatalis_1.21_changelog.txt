@@ -1,0 +1,171 @@
+Arx Fatalis patches always include all fixes from previous updates. 
+
+
+Arx Fatalis English v1.21
+-------------------------
+- Improved overall game stability under Microsoft© Windows Vista© & Windows 7©.
+- Fixed blinking effect that may happen when starting a new game.
+- Fixed HUD scaling when display resolution is higher than 1024x960.
+- Fixed EAX option: value is now saved when leaving the option menu.
+- Fixed an issue with the game locking-up when opening player inventory.
+- Fixed length of cinemascope bars displayed during cinematics.
+- Fixed some performance issues with a few Nvidia GPU (see Notes).
+
+Notes:
+- If you experience in game framerate drops or stuttering, please give a try to the "Enable Rendering Fix" option in the Video settings.
+- This patch will remain the very last Arx Fatalis update released by Arkane Studios. However, the whole source code of the game is now available for download, which means that numerous fan made updates/mods may be found around the Internet. Arkane Studios won't provide any kind of answer or support regarding community developed content.
+
+
+Arx Fatalis English v1.20
+-------------------------
+- Cleaned/refactored game code before sources public release.
+
+
+Arx Fatalis English v1.19
+-------------------------
+- Fixed resolution management on cinemascope bar.
+- New flare's occlusion system and optimization on Flare's management.
+- Fixed the "done" button on charactersheet which was not working on some resolutions.
+- Fixed the text size on the credits.
+- Interface isn't scaled.
+- Add version string in the menu.
+- Drawtext optimization.
+- Fixed light rendering on cinematic.
+- New resolution enable.
+- New timer system for a better interpolation on animation/camera/movement. (see notes for AMD).
+- Fixed flare on lights.
+- Remove zbuffer lock/unlock (fps win 14%).
+- Fixed bug on raycast.
+- Collision enhanced.
+- Add flare management on cinemascope.
+- Add FSAA and AA on font.
+
+
+Notes:
+
+- If you have some framerate issue on AMD, please intall the fix available on this web address:
+	
+http://support.microsoft.com/kb/895980/en-us
+
+
+Arx Fatalis v1.18
+-----------------
+- Fixed D3D texture creation that triggered white textured objects / Characters on recent hardware configurations.
+- Fixed a crash on TNL Bump Mapping management.
+- Fixed several memory leaks.
+- Fixed the text font not being displayed on recent hardware configurations.
+- Fixed a specific crash on spells use.
+- Tweaked the Fireball spell damage rule, to make it less powerful & more balanced.
+- Fixed a bug where the game would quit if the ESC key was pressed during the New Game fade to black.
+
+
+Arx Fatalis v1.17
+-----------------
+- Fixed a crash with inventory.
+
+
+Arx Fatalis v1.16
+-----------------
+- Fixed a bug with Pog and stealing the Troll Idol.
+- Fixed a bug with Alia not telling the right dialogue after the final cinematic.
+- After the Ylsides Invasion, the door in front of Maria Shop is now unlocked.
+- When Alotar opens the reserve, you won't have to talk to the goblin lord to get the door opened.
+- When Alia is rescued, a cross is added on the mini map to know where to meet her later.
+- Fixed a bug with the bridge in the Akbaa Temple.
+- Hero won't say "Not Now" anymore when trying to give the papers to Polsius in the Tavern.
+- Fixed a bug with the poisoned pasta & the goblin cook.
+- Miguel shop chests are now reset & refilled on reload.
+- Fixed a bug with chicken drumsticks.
+- Hitting the Meteor now also triggers the cinematic.
+- Fixed the dwarf forge.
+- The troll guarding the bridge (Level 3) has been moved near the stairs.
+- Weapons/Armors enchantment has been re-designed.
+- Fixed a bug with frozen objects script.
+- Friendly NPC's won't turn back to you anymore when bumping them from behind.
+- Cur0001 directory is now deleted when launching the game.
+- Fixed a bug with Carlo and the Queen Florence Plot.
+- Kultar stats have been lowered (During Ylside Invasion).
+- Fixed a bug at the end of Kultar Cinematic (During Ylside Invasion).
+- Added a gore flag in the cfg.ini file:
+Set it to 0: make the gore effect to work as in the previous version. 
+Set it to 1: Enable the gore effect with all the versions. 
+Set it to 2: Disable the gore effetcs no matter the version.
+
+
+Arx Fatalis v1.15
+-----------------
+- Fixed a bug with the latest Nvidia Drivers and 2D cinematics going black.
+- On screen minimap option (you requested it, now you have it) : Press 'M' or 'R' to activate it.
+- Optimisation of the savegame and changelevel times.
+- Fixed a bug with the minimap and the Etheral link.
+- Added a forcetoggle=1 in the cfg.ini for the persons who prefer to have stealth and Magic in toggle mode.
+- Fixed a crash that could happen during loadings.
+- Fixed a bug with Gary's chests.
+- Guards don't snoar in the castle after the Ylside's attack.
+- The entrance door of the castle is not breakable anymore.
+- Fixed a bug with the tavern attacking the player for no apparent reason.
+- Fixed a bug with the Food System.
+- Fixed a bug with a rebel guard standing in front of Redset Shop.
+- Arx City trap door are no longer interactive.
+- Fixed a minor bug with a guard in Arx city.
+- Fixed a bug with the dwarf forge.
+- Fixed a bug with magic objects which now increase normally your hit points and mana points when increasing your intelligence & constitution.
+- Fixed a bug where the Arx City Castle Guards were talking without any speech to be heard.
+
+
+Arx Fatalis v1.14
+-----------------
+- Fix a bug making the game not even launch.
+- Fix a crash with EAX/DirectX 8 sound card icompatibility.
+- A message now warns you when your system is getting out of memory.
+- Fix a bug with a Akbaa rock.
+- When you leave agame and start a new one the auto map is now correcly cleared.
+- Fix a bug with the snake women storage room.
+- Fix a bug with corrupted save games.
+- Fix a bug that could appear with the giant worm.
+- Loading a savegame after having been paralized no longer paralize the hero in the new game.
+- The Dragon Egg no longer appears in Zalnashh cinematic if it has been already used.
+- You can't be stuck in a guard anymore when teleporting to Arx City.
+- It's no longer possible to use the lever through the crypt wall in Level 5.
+- You can't take Falan notebook through the chest anymore.
+- Book icons are now correct.
+- All the new tutorials are now properly added to your quest book.
+- A new message has been added at the end of Shany Quest in order to know your reward.
+- Fix a bug withSuiberis being attacked in the castle.
+- Fix a bug with Tizzy & the beer.
+- If Zalnashh is dead she no longer appears in the castle cinematic.
+- Fix a bug with magic mode loose in Akbaa Temple.
+- Killing an enemy with poison now give you the correct XP.
+- Fix a bug with the rat in Felnor Laboratory.
+- Shany no longer appears if dead.
+- Add two more enchante weapon scrolls in the Ylsides Bunker.
+- Pog now longer talks about Alotar death if independant.
+- Fix a bug in the dwarf forge.
+- Fix a bug with Akbaa.
+- You can't cast the bless spell more than once now.
+- Fix a bug with two traps in cypt level 6.
+- Fix a bug on the automap.
+- It's no longer possible to go out from the scene in Level 4.
+- You can now assign NUM PAD ENTER in the controls menu.
+- Dead people won't get up on the city.
+- Fix a bug with dwarf door.
+- Fix a bug with Zalnashh cinematic in the castle.
+- "The snake women & the flowers" cinematic has been reactivated.
+- Fix a bug while using Koltk powder on a equipped weapon.
+- Fix a bug with the Earth Clan.
+- Fix a bug when Arx city shops are closed so you can steal from their chests.
+- Fix a bug with a priest if Alia is dead.
+- Fix a bug where you can cut kultar head in the beginning.
+- Giving money to the goblin lord now put it in his inventory.
+- Fix a bug with a ice bridge.
+- The Door to Greu's Cave can now be lockpicked.
+
+
+Arx Fatalis v1.131
+------------------
+- The Goblin Lord guarding the entrance to level 3 from level 2 won't get stuck one into each other any longer.
+- Shift + L won't call an editor command asking to delete the level anymore.
+- Walking a long time against a wall when the framerate is high won't make you go through the wall anymore.
+- Fix problem with creating new savegames.
+- Porticullis near stairs to level 3 from level 2 now works correctly.
+- You can't open Alicia secret pathway clicking on the lever through the wall anymore.
